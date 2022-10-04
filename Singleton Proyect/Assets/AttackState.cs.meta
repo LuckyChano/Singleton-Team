@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Singleton Proyect/Assets/AttackState.cs.meta
 guid: ae0cdf1cb8aa56641b150544f883d0ca
+========
+guid: 7f2ddd54ffb27c64a97e1458430e14e6
+>>>>>>>> parent of 2dc300c (Enemy / coin / terrain / main menu):Singleton Proyect/Assets/F/SmoothCamaraFollow.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
