@@ -22,7 +22,7 @@ public class JoyController : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         Vector3 moveDirForPlayer = new Vector3(moveDir.x, 0, moveDir.y);
 
-        moveDirForPlayer = moveDirForPlayer / maxMagnitude;
+        moveDirForPlayer /= maxMagnitude;
 
         return moveDirForPlayer;
     }

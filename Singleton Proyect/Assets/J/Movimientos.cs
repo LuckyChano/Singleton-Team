@@ -9,7 +9,7 @@ public class Movimientos : Entity
     [SerializeField] LayerMask floorMask;
 
 
-    void Update()
+    private void Update()
     {
         transform.position += joyController.MaxMoveForStick() * Time.deltaTime * speed;
 
